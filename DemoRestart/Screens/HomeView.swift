@@ -18,6 +18,7 @@ struct HomeView: View {
                 .font(.largeTitle)
             Button(action: {
                 isOnboardingViewActive = true
+                
             }, label: {
                 Text("Restart")
             })
